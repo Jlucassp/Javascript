@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Carros</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>Lista de Carros</h1>
+
+  <form id="formulario">
+    <div>
+      <label for="marca">Marca</label>
+      <input type="text" id="marca" name="marca" placeholder="Digite a marca" required>
+    </div>
+    <div>
+      <label for="modelo">Modelo</label>
+      <input type="text" id="modelo" name="modelo" placeholder="Digite o modelo" required>
+    </div>
+    <div>
+      <label for="ano">Ano</label>
+      <input type="number" id="ano" name="ano" placeholder="Digite o ano" required>
+    </div>
+    <div>
+      <label for="cor">Cor</label>
+      <input type="text" id="cor" name="cor" placeholder="Digite a cor" required>
+    </div>
+    <div>
+      <label for="preco">Preço</label>
+      <input type="number" id="preco" name="preco" placeholder="Digite o preco" required>
+    </div>
+  </form>
+  <button type="submit">Cadastrar</button>
+  
+  <section class="container" id="todos_os_carros"></section>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
